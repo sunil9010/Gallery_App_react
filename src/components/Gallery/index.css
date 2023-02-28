@@ -1,0 +1,36 @@
+/* Write your code here. */
+.imageAlt {
+  width: 90%;
+  height: 500px;
+  max-width: 900px;
+}
+.app-container {
+  justify-content: center;
+  display: flex;
+}
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-top: 34px;
+  margin-bottom: 34px;
+  max-width: 1140px;
+}
+.heading {
+  text-align: left;
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #1e293b;
+}
+.description {
+  color: #64748b;
+  font-family: 'roboto';
+  font-size: 15px;
+  text-align: left;
+}
+.alignList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0px;
+}
